@@ -61,8 +61,8 @@ class Tinson
 
         $message = (
             $result
-                ? 'Lista aggiornata con successo.'
-                : 'La lista non è stata aggiornata correttamente.'
+                ? 'Liste mise à jour avec succès.'
+                : 'La liste n'a pas été mise à jour correctement.'
         );
         $this->sendResponse($message);
     }

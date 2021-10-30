@@ -70,7 +70,7 @@ class Tinson{
                     this.gamesList.innerHTML += game;
                 }
             } else {
-                this.gamesList.innerHTML = '<p>Nessun gioco nella lista.</p>';
+                this.gamesList.innerHTML = '<p>Aucun jeu dans la liste.</p>';
             }
         })
     }
