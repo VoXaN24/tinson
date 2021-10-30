@@ -20,7 +20,7 @@
             <form class="col s12" id="add-game" onSubmit="tinson.updateGames(event)">
                 <div class="row">
                     <div class="col s12">
-                        <h5>Ajouter un jeu</h5>
+                        <h5>Add a games</h5>
                     </div>
                     <div class="input-field col s12 m6">
                         <input id="gid" type="text" class="validate" name="gid">
@@ -28,10 +28,11 @@
                     </div>
                     <div class="input-field col s12 m6">
                         <input id="gname" type="text" class="validate">
-                        <label for="gname">Nom du jeu</label>
+                        <label for="gname">GameName</label>
                     </div>
                     <div class="col s12">
-                        <button class="btn waves-effect waves-light" type="submit" name="action">Sauvegarder
+                        <button class="btn waves-effect waves-light" type="submit" name="action">
+                            Add
                             <i class="material-icons right">send</i>
                         </button>
                     </div>
@@ -42,13 +43,13 @@
             <form class="col s12" id="delete-game" onSubmit="tinson.deleteGames(event)">
                 <div class="row">
                     <div class="col s12">
-                        <h5>Supprimer un jeu</h5>
+                        <h5>Erase a game</h5>
                     </div>
                     <div class="col s12 radio-type" id="games-list">
 
                     </div>
                     <div class="col s12">
-                        <button class="btn waves-effect waves-light deep-orange darken-3" type="submit" name="action">Supprimer
+                        <button class="btn waves-effect waves-light deep-orange darken-3" type="submit" name="action">Erase
                             <i class="material-icons right">delete</i>
                         </button>
                     </div>

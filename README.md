@@ -1,9 +1,6 @@
 # Tinson
 A great JSON file manager for tinfoil. Install every NSP directly on Switch without using cables.
 
-# Language
-French
-
 ## Why should I use this?
 Well, I don't know why you have to use it. I've developed this because my cat jump on my keyboard every time I'm using my mac. 
 
